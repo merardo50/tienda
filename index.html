@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="container table-responsive">
+        <div class="row text-center" style="background-color: rgb(155, 233, 247) ;">
+            <div class="col-12 mt-5">
+                <p>HOLA CIENTE</p>
+                <input name="display" type="text" class="color_display" id="display1" size="25">
+            </div>
+        </div>
+        <div class="row text-center" style="background-color: blue; display: none;" name="interface clientes" id="ineterface_clientee3">
+            <div class="col mt-6 text-center">
+                <p id="inicio1"> INGRESA BUSQUEDA</p>
+                <button class="border-botton border-dark" id="buscar1" style="background-color: rgb(238, 255, 0);">
+                    BUSCAR</button>
+                <button class="border-botton border-dark" style="background-color: rgb(9, 255, 0);margin-right: 30%">agregar a la compra</button>
+                <table class="table-responsive table table-striped table-bordered table-hover" id="tablaTiendita1" style="background-color: rgb(216, 30, 17); ">
+                    <thead>
+                        <th>Cedula</th>
+                        <th>Nombre Cliente</th>
+                        <th>Primer Apellido</th>
+                        <th>Segundo Apellido</th>
+                        <th>Celular</th>
+                        <th>Email</th>
+                        <th>Direccion</th>
+                    </thead>
+                    <tbody id="cuerpoTabla1" style="background-color: blue;                  
+                    border:7px solid rgb(124, 14, 14);
+                    border-radius:22px;">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container table-responsive">
+        <div class="row text-center" style="background-color:rgb(255, 0, 0);">
+            <div class="col-12 mt-5">
+                <p>HOLA ROVEEDOR</p>
+                <input name="display" type="text" class="color_display" id="display2" size="25">
+            </div>
+        </div>
+        <div class="row text-center" style="background-color: rgb(238, 255, 0);">
+            <div class="col mt-6 text-center">
+                <p id="inicio2"> INGRESA BUSQUEDA</p>
+                <button class="border-botton border-dark" id="buscar1" style="background-color: rgb(217, 255, 0);">
+                    BUSCAR</button>
+                <button class="border-botton border-dark" style="background-color: rgb(9, 255, 0);margin-right: 30%;">agregar a la compra</button>
+                <table class="table-responsive table table-striped table-bordered table-hover" id="tablaTiendita2" style="background-color: rgb(216, 30, 17); ">
+                    <thead>
+                        <th>Nombre proveedor</th>
+                        <th>Proveedor Nit</th>
+                        <th>Nombre Contacto</th>
+                        <th>Celular</th>
+                        <th>Email</th>
+                        <th>Direccion</th>
+                        <th>CodigoInterno</th>
+                    </thead>
+                    <tbody id="cuerpoTabla2" style="background-color: rgb(180, 88, 184);width:300px;                  
+                    border:7px solid rgb(124, 14, 14);
+                    border-radius:22px;">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container" style="display: none;" id="vistaProductos">
+        <div class="row">
+            <div class="col-3">
+            </div>
+            <div class="col-6">
+                <table>
+                    <thead>
+                        <tr>
+                            <th> NOMBRE</th>
+                            <th>REFERENCIA </th>
+                            <th>MARCA</th>
+                            <th>PRECIO</th>
+                            <th>EXSISTENCIA</th>
+                            <th>CODIGO INTERNO</th>
+                        </tr>
+                    </thead>
+                    <tbody id="consultaProductos"></tbody>
+                </table>
+            </div>
+            <div class="col-3">
+            </div>
+
+        </div>
+
+    </div>
+    <div class="container table-responsive">
+        <div class="row text-center" style="background-color: rgb(0, 217, 255);">
+            <div class="col-12 mt-5">
+                <p>BIENVENIDO A PRODUCTOS</p>
+                <input name="display" type="text" class="color_display" id="display3" size="25">
+            </div>
+        </div>
+        <div class="row text-center" style="background-color: rgb(11, 241, 11);">
+            <div class="col mt-6 text-center">
+                <p id="inicio3"> INGRESA BUSQUEDA</p>
+                <button class="border-botton border-dark" id="buscar3" style="background-color: rgb(202, 214, 31)">BUSCAR</button>
+                <button class="border-botton border-danger" style="background-color: rgb(9, 255, 0);margin-right: 30%;">agregar a la compra</button>
+                <table class="table-responsive table table-striped table-bordered table-hover" id="tablaTiendita3" style="background-color: rgb(216, 30, 17); ">
+                    <thead>
+                        <th>Nombre Producto</th>
+                        <th>Referencia</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>
+                        <th>CodigoInterno</th>
+                    </thead>
+                    <tbody id="cuerpoTabla3" style="background-color: rgb(180, 88, 184);width:300px;                  
+                    border:7px solid rgb(124, 14, 14);
+                    border-radius:22px;">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="border: blue;">
+        <input type="text">
+    </div>
+
+    <script src="./js/libs/JQuery.js"></script>
+    <script type="module" src="./js/contenido.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+let clientes = [{
+    cedula: '00.000.001',
+    nombre: 'Jenifer',
+    apellido1: 'Cañon',
+    apellido2: 'Vergara',
+    cel: '3112194015',
+    email: 'A001@gmail.com',
+    direccion: 'calle_46_No_21-12'
+}, {
+    cedula: '00.000.002',
+    nombre: 'juan',
+    apellido1: 'Cañon',
+    apellido2: 'Acosta',
+    cel: '3152164044',
+    email: 'A002@gmail.com',
+    direccion: 'calle_47_No_22-13'
+}, {
+    cedula: '00.000.003',
+    nombre: 'ericson',
+    apellido1: 'Zaapata',
+    apellido2: 'Nuñez',
+    cel: '3153456755',
+    email: 'A003@gmail.com',
+    direccion: 'calle_22_No_33-14'
+}, {
+    cedula: '00.000.004',
+    nombre: 'tulio',
+    apellido1: 'pericle',
+    apellido2: 'tasca',
+    cel: '3153456766',
+    email: 'A004@gmail.com',
+    direccion: 'calle_22_No_34-15'
+}, {
+    cedula: '00.000.005',
+    nombre: 'rickin',
+    apellido1: 'Zaapata',
+    apellido2: 'rolex',
+    cel: '3153456777',
+    email: 'A005@gmail.com',
+    direccion: 'calle_22_No_35-11'
+}, {
+    cedula: '00.000.006',
+    nombre: 'radon',
+    apellido1: 'patata',
+    apellido2: 'tapa',
+    cel: '3153456788',
+    email: 'A006@gmail.com',
+    direccion: 'calle_22-No_37-133'
+}, {
+    cedula: '00.000.007',
+    nombre: 'ericson',
+    apellido1: 'machuca',
+    apellido2: 'taza',
+    cel: '3153456799',
+    email: 'A007@gmail.com',
+    direccion: 'calle_27_No_23-77'
+}, {
+    cedula: '00.000.008',
+    nombre: 'xista',
+    apellido1: 'matosa',
+    apellido2: 'plato',
+    cel: '3112194345',
+    email: 'A008@gmail.com',
+    direccion: 'calle_36_No_51-12'
+}, {
+    cedula: '00.000.009',
+    nombre: 'chacho',
+    apellido1: 'chicho',
+    apellido2: 'tulio',
+    cel: '3152163333',
+    email: 'A009@gmail.com',
+    direccion: 'calle_116_No_22-77'
+}, {
+    cedula: '00.000.010',
+    nombre: 'epsinin',
+    apellido1: 'popoteata',
+    apellido2: 'lopez',
+    cel: '31534564444',
+    email: 'A010@gmail.com',
+    direccion: 'calle_134_No_33-10'
+}, {
+    cedula: '00.000.011',
+    nombre: 'retetulio',
+    apellido1: 'San_pericle',
+    apellido2: 'tostao',
+    cel: '3153456789',
+    email: 'A011@gmail.com',
+    direccion: 'calle_22_No_234-22'
+}, {
+    cedula: '00.000.012',
+    nombre: 'flecho',
+    apellido1: 'fliper',
+    apellido2: 'tomto',
+    cel: '3153456755',
+    email: 'A012@gmail.com',
+    direccion: 'calle_122_No_38-11'
+}, {
+    cedula: '00.000.013',
+    nombre: 'ginin',
+    apellido1: 'gilacho',
+    apellido2: 'rasga',
+    cel: '3153456755',
+    email: 'A013@gmail.com',
+    direccion: 'calle_22-No_37-133'
+}, {
+    cedula: '00.000.014',
+    nombre: 'furetio',
+    apellido1: 'timote',
+    apellido2: 'dinutio',
+    cel: '3152345755',
+    email: 'A014@gmail.com',
+    direccion: 'calle_27_No_23-77'
+}, {
+    cedula: '00.000.015',
+    nombre: 'rretomin',
+    apellido1: 'fliplalio',
+    apellido2: 'petronio',
+    cel: '3223494015',
+    email: 'A015@gmail.com',
+    direccion: 'calle_146_No_21-142'
+}, {
+    cedula: '00.000.016',
+    nombre: 'satrui',
+    apellido1: 'kikada',
+    apellido2: 'zmatra',
+    cel: '3152164047',
+    email: 'A016@gmail.com',
+    direccion: 'calle_47_No_11-55'
+}, {
+    cedula: '00.000.017',
+    nombre: 'wertir',
+    apellido1: 'paragua',
+    apellido2: 'chichon',
+    cel: '3153456235',
+    email: 'A017@gmail.com',
+    direccion: 'calle_22_No_33-211'
+}, {
+    cedula: '00.000.018',
+    nombre: 'nutria',
+    apellido1: 'mico',
+    apellido2: 'pataa',
+    cel: '3153456799',
+    email: 'A018@gmail.com',
+    direccion: 'calle_66_No_34-99'
+}, {
+    cedula: '00.000.019',
+    nombre: 'flako',
+    apellido1: 'gordo',
+    apellido2: 'alto',
+    cel: '3153458888',
+    email: 'A019@gmail.com',
+    direccion: 'calle_22_No_99-99'
+}, {
+    cedula: '00.000.020',
+    nombre: 'radon',
+    apellido1: 'patata',
+    apellido2: 'tapa',
+    cel: '3153456788',
+    email: 'A006@gmail.com',
+    direccion: 'calle_22-No_37-133'
+}, {
+    cedula: '00.000.021',
+    nombre: 'drefi',
+    apellido1: 'cacatua',
+    apellido2: 'rezaza',
+    cel: '3153456734',
+    email: 'A021@gmail.com',
+    direccion: 'calle_27_No_23-237'
+}, {
+    cedula: '00.000.022',
+    nombre: 'taxi',
+    apellido1: 'carro',
+    apellido2: 'perro',
+    cel: '3112194300',
+    email: 'A022@gmail.com',
+    direccion: 'calle_36_No_99-77'
+}, {
+    cedula: '00.000.023',
+    nombre: 'jijulo',
+    apellido1: 'jecho',
+    apellido2: 'pratilo',
+    cel: '3152163333',
+    email: 'A023@gmail.com',
+    direccion: 'calle_116_No_33-88'
+}, {
+    cedula: '00.000.024',
+    nombre: 'emo',
+    apellido1: 'cedu',
+    apellido2: 'millasz',
+    cel: '31534561111',
+    email: 'A025@gmail.com',
+    direccion: 'calle_324_No_33-00'
+}, {
+    cedula: '00.000.025',
+    nombre: 'plopli',
+    apellido1: 'srfin',
+    apellido2: 'pillaoo',
+    cel: '3153456789',
+    email: 'A025@gmail.com',
+    direccion: 'calle_122_No_4-2'
+}, {
+    cedula: '00.000.026',
+    nombre: 'kilo',
+    apellido1: 'kliperas',
+    apellido2: 'frito',
+    cel: '3153488885',
+    email: 'A026@gmail.com',
+    direccion: 'calle_122_No_78-91'
+}, {
+    cedula: '00.000.027',
+    nombre: 'quilasio',
+    apellido1: 'gilacho',
+    apellido2: 'metrico',
+    cel: '30034096755',
+    email: 'A027@gmail.com',
+    direccion: 'calle_22-No_78-09'
+}, {
+    cedula: '00.000.028',
+    nombre: 'trucio',
+    apellido1: 'oterigas',
+    apellido2: 'dumamis',
+    cel: '31523411111',
+    email: 'A028@gmail.com',
+    direccion: 'calle_7_No_23-67'
+}];
+export { clientes };
