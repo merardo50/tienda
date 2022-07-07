@@ -13,9 +13,9 @@
 
 <body>
     <div class="container table-responsive">
-        <div class="row text-center" style="background-color: rgb(155, 233, 247) ;">
+        <div class="row text-center" style="background-color: rgb(121, 20, 204) ;">
             <div class="col-12 mt-5">
-                <p>HOLA CIENTE</p>
+                <p>buenos dias usuario</p>
                 <input name="display" type="text" class="color_display" id="display1" size="25">
             </div>
         </div>
@@ -138,7 +138,33 @@
     <script src="./js/libs/JQuery.js"></script>
     <script type="module" src="./js/contenido.js"></script>
 
+    <script>
+        let hijos = [];
+        document.body.childNodes.forEach((childNode) => {
+            /*   let propiedades = childNode.values();
+              let propiedad = propiedades[0]; */
+            if (childNode == "text") {
+                return
+            }
+            hijos.push(childNode);
+        });
+        console.log(document.body.childElementCount);
+        console.log(hijos);
 
+        function selecionarHijos(hijos) {
+            let hijosSeleccionados = [];
+            for (let i = 0; i <= hijos.length; i++) {
+
+                if (!Number.isInteger(i / 2)) {
+                    hijosSeleccionados.push(hijos[i]);
+                }
+
+
+            }
+            console.log(hijosSeleccionados)
+        }
+        selecionarHijos(hijos);
+    </script>
 
 </body>
 
